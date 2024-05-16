@@ -59,6 +59,17 @@ body {
     justify-content: center;
 }
 
+.center {
+    justify-content: center;
+    width: 100% !important;
+    text-align: center;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+}
+
 section {
     width: 90%;
     margin: 0 auto;
