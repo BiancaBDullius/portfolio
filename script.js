@@ -13,12 +13,12 @@ function scrollToSection(sectionId) {
 document.getElementById('scroll-about').addEventListener('click', function () {
     scrollToSection('about');
 });
-document.getElementById('scroll-projects').addEventListener('click', function () {
-    scrollToSection('projects');
+document.getElementById('scroll-experience').addEventListener('click', function () {
+    scrollToSection('workexperience');
 });
 
 const typingText = document.querySelector(".typing");
-let i = 0, data = [], text = "Bianca Beppler Dullius Backend developer";
+let i = 0, data = [], text = "Bianca Beppler Dullius Fullstack developer";
 
 let typing = setInterval(() => {
     if (i == text.length) {
